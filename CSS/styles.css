@@ -1,0 +1,30 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif	;
+    font-weight: bold;
+}
+
+header {
+    color: #000080;
+}
+    
+
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: #ECF0F1;
+}
+
+.row-content {
+    padding: 50px 0;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: white;
+    
+}
