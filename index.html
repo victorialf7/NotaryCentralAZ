@@ -24,44 +24,164 @@
                         <h1>Notary Central A-Z</h1>
                         <h2>Your one stop shop for all your notarial needs</h2>
                     </div>
+                    <div class="col-md-4 col-xl-2 mt-4">
+                        <a role="button" id="contactButton" class="btn btn-lg btn-outline-info text-nowrap">Contact Us</a>
+                    </div>
                 </div>
             </div>
         </header>
+        <div id="contactModal" class="modal fade" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Contact Us</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                                    <div class="col-md-10">
+                                        <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                                    <div class="col-md-10">
+                                        <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                                    <div class="col-5 col-md-3">
+                                        <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                                    </div>
+                                    <div class="col-7">
+                                        <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="email" class="col-md-2 col-form-label">Email</label> 
+                                    <div class="col-md-10">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col offset-md-2">
+                                        May we contact you? 
+                                        <div class="form-check form-check-inline">
+                                            <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
+                                            <label for="contactYes" class="form-check-label">Yes</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no" />
+                                            <label for="contactNo" class="form-check-label">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                                    <div class="col-md-10">
+                                        <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                                    </div>
+                                    <div class="offset-md-2 col-md-10">
+                                        <button type="submit" class="btn btn-primary"> Send Feedback</button>
+                                    </div>
+                                </div>
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
         <nav class="navbar navbar-expand-sm navbar-light sticky-top">
             <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/notary-central-logo.png" width="30" height="30"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#notaryNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="notaryNavbar">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav nav-pills nav-fill">
                         <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="services.html"><i class="fa fa-list fa-lg"></i>Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i>Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-question fa-lg"></i>FAQs</a></li>
                     </ul>
+                    
                 </div>  
             </div>
         </nav>
-        <div>
-            <h3>About Us</h3>
-            <p>Notary public and notary signing agent in South Florida. We are available 24/7 through the website or Facebook, and we have special offers available. We speak English and Spanish, and we are happy to answer any questions or concerns you might have.</p>
-        </div>
-        <div>
-            <h3>Frequently Asked Questions</h3>
-            <ul>
-                <li>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum est officiis consectetur aperiam, nobis totam tempora repudiandae blanditiis beatae nisi, nihil nostrum expedita minima quidem ad. Porro impedit saepe architecto!
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus perspiciatis eveniet quaerat mollitia fugit? Odio debitis porro, vel magni, dicta natus vitae earum quas cupiditate quisquam, esse nobis suscipit. Reiciendis.
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta quod expedita deleniti provident similique commodi asperiores sunt cum, voluptatem quis quia ea quibusdam cumque facere corporis! Harum, est corrupti?
-                </li>
-                <li>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ullam voluptatibus atque fugit perferendis illo, esse explicabo sapiente. Consequuntur ratione dolore fugiat minima saepe beatae culpa atque officiis quo aspernatur.
-                </li>
-            </ul>
+        <div class="container">
+            <div class="row row-content">
+                <div class="col">
+                    <h3>About Us</h3>
+                    <p>Notary public and notary signing agent in South Florida. We are available 24/7 through the website or Facebook, and we have special offers available. We speak English and Spanish, and we are happy to answer any questions or concerns you might have.</p>
+                </div>
+            </div>
+            <div class="row row-content">
+                <div class="col">
+                    <h3>Frequently Asked Questions</h3>
+                    <div id="accordion">
+                        <div class="card">
+                            <div role="tab" class="card-header">
+                                <h4>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#quest1">
+                                        <small>Question 1: How much does it cost per notarization/signature?</small>
+                                    </a>
+                                </h4>
+                                <div class="collapse show" id="quest1" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="d-none d-sm-block">The cost per notarization/signature is of ten dollars.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div role="tab" class="card-header">
+                                <h4>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#quest2">
+                                        <small>Question 2: What services do you offer?</small>
+                                    </a>
+                                </h4>
+                                <div class="collapse show" id="quest2" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="d-none d-sm-block">You can find a comprehensive list of the services we offer <a href="services.html">here</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div role="tab" class="card-header">
+                                <h4>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#quest3">
+                                    <small>Question 3: What are the valid forms of ID needed for a notarization?</small>
+                                    </a>
+                                </h4>
+                                <div class="collapse show" id="quest3" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="d-none d-sm-block">The valid forms of Id are: </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div role="tab" class="card-header">
+                                <h4>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#quest4">
+                                        <small>Question 4: </small>
+                                    </a>
+                                </h4>
+                                <div class="collapse show" id="quest4" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="d-none d-sm-block"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <footer>
             <div class="container">
