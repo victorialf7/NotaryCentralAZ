@@ -36,7 +36,7 @@ a, a:hover {
 }
 
 footer {
-    background-color: linear-gradient(0deg, white 40%,#000080);
+    background-image: linear-gradient(white,#000080);
 }
 
 ul {
@@ -45,4 +45,6 @@ ul {
     width: 100%;
     text-align: center; 
 }
+
+
 
